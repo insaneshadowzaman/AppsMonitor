@@ -242,7 +242,9 @@ public class DetailActivity extends AppCompatActivity {
         @Override
         public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
             AppItem item = mData.get(position);
+
             String desc = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss", Locale.getDefault()).format(new Date(item.mEventTime));
+
             if (item.mEventType == UsageEvents.Event.MOVE_TO_BACKGROUND) {
                 holder.mLayout.setPadding(dpToPx(16), 0, dpToPx(16), dpToPx(4));
             } else if (item.mEventType == -1) {
@@ -251,17 +253,18 @@ public class DetailActivity extends AppCompatActivity {
             } else if (item.mEventType == UsageEvents.Event.MOVE_TO_FOREGROUND) {
                 holder.mLayout.setPadding(dpToPx(16), dpToPx(12), dpToPx(16), 0);
             }
+
             holder.mEvent.setText(String.format("%s %s", getPrefix(item.mEventType), desc));
         }
 
         private String getPrefix(int event) {
             switch (event) {
                 case 1:
-                    return "┏ ";
+                    return "┏  Start time : ";
                 case 2:
-                    return "┗ ";
+                    return "┗  End time";
                 default:
-                    return "┣  ";
+                    return "┣   Usage time";
             }
         }
 

@@ -8,19 +8,21 @@
     android:focusable="true"
     android:gravity="center_vertical"
     android:orientation="horizontal"
-    android:paddingBottom="8dp"
-    android:paddingEnd="16dp"
-    android:paddingStart="16dp"
+    android:paddingBottom="16dp"
+    android:paddingEnd="32dp"
+    android:paddingStart="32dp"
     android:paddingTop="8dp">
 
     <TextView
         android:id="@+id/event"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:textSize="22sp"
         android:layout_weight="1" />
 
     <TextView
         android:id="@+id/sign"
+        android:textSize="22sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
