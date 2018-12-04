@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "timeline.lizimumu.com.t"
+        applicationId "timeline.azahar.com.systemManager"
         minSdkVersion 22
         targetSdkVersion 28
         versionCode 26

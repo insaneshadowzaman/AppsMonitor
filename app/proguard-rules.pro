@@ -59,7 +59,7 @@
 
 
 
-#The -optimizations option disables some arithmetic simplifications that Dalvik 1.0 and 1.5 can't handle. Note that the Dalvik VM also can't handle aggressive overloading (of static fields).
+#The -optimizations option disables some arithmetic simplifications that Dalvik 1.0 and 1.5 can'systemManager handle. Note that the Dalvik VM also can'systemManager handle aggressive overloading (of static fields).
 #To understand or change this check http://proguard.sourceforge.net/index.html#/manual/optimizations.html
 -optimizations !code/simplification/arithmetic,!field/*,!class/merging/*,!code/allocation/variable
 
