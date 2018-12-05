@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "389355095230",
+    "firebase_url": "https://appsmonitor-40e39.firebaseio.com",
+    "project_id": "appsmonitor-40e39",
+    "storage_bucket": "appsmonitor-40e39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389355095230:android:319eac4f622e13bf",
+        "android_client_info": {
+          "package_name": "timeline.azahar.com.systemManager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389355095230-cvb9f8aj324no4pko2m8i9lcihrmp59r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ2PURd4f8EPbOj1VahxKrDikiGmo__Ek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
